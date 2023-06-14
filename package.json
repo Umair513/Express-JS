@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "express-js",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umair513/Express-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umair513/Express-JS/issues"
+  },
+  "homepage": "https://github.com/Umair513/Express-JS#readme"
+}
