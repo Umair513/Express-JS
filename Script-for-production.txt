@@ -1,0 +1,5 @@
+"scripts": {
+    "build": "babel index.js --out-dir prd",
+    "start": "npm run build && nodemon prd/index.js",
+    "serve": "node prd/index.js"
+  },

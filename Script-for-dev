@@ -1,0 +1,5 @@
+"scripts": {
+    "start": "babel index.js -w --out-dir prd",
+    "dev-serve": "nodemon prd/index.js"
+   
+  },

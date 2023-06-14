@@ -8,7 +8,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "babel src -w --out-dir prd",
+    "dev-serve": "nodemon prd/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Umair513/Express-JS/issues"
   },
-  "homepage": "https://github.com/Umair513/Express-JS#readme"
+  "homepage": "https://github.com/Umair513/Express-JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  }
 }
